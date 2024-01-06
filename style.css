@@ -20,6 +20,9 @@
      
     
  }
+ .buttonxy{
+  display: none;
+ }
 
  .heading{
   color:white;
@@ -32,6 +35,7 @@
    background: none;
    border: none;
    text-decoration: none;
+
    
    cursor: pointer;
    font-size: 18px;
@@ -78,13 +82,14 @@
  }
  .buttonx{
      display: flex;
-     border-radius:15px;
+    border-radius: 25px;
      width:180px;
      height: 37px;
      background-color: black;
      color:white;
      font-size:25px;
  }
+
  .buttonx img {
      margin-right: 20px; /* Adjust as needed for spacing between image and text */
      max-width: 25%; 
@@ -128,32 +133,18 @@
  }
  .layerbox {
   display: flex;
-  width: 100%;
   justify-content: space-around;
-  padding-left: 55px;
-  padding-right: 55px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
  
-.box {
-  align-items: center;
-  width: 300px;
-  height: 100px;
-  padding: 30px;
-  margin-top: 50px;
-  /* background-color: #650803; */
-  margin-right: 190px;
-  margin-left: 20px;
-  display: inline-block;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
    
-.box img {
-  width: 180%;
-  height: 160%;
+.boximg1 {
+  width: 157px;
+  height: 150px;
   max-height: 120%;
-  margin-left: 65px;
+  margin: 30px;
 }
    
  
@@ -300,31 +291,45 @@
     line-height: 25px;
     margin-top: 70px;
   }
-  .layerbox {
-    display: flex;
-    justify-content: space-between;
-    background-color: black;
-    width: 237px;
-}
-  
-  
-.box {
-  align-items: center;
-  width: 2px;
-  height: 59px;
-  padding: -2px;
-  margin-top: 32px;
-  margin-right: 37px;
-  display: flex;
-  justify-content: center;
-}
+
+  .buttonxy{
+    align-items: center;
     
-.box img {
-  width: 99px;
-  height: 60px;
-  max-height: 120%;
-  margin-right: 168px;
+    display: flex;
+    border-radius:15px;
+    
+    width:140px;
+   
+    height: 32px;
+    background-color: rgb(56, 53, 53);
+    color:white;
+    
+    margin-top: 20px;
+    
+   
 }
+.buttonxy img{
+  filter: invert(100%); 
+  padding-top: 3px;
+  transform: scale(1.1); /* Adjust the scale factor for more or less bulging */
+            transition: transform 0.3s 
+}
+.buttonxy img hover{
+  transform: scale(1.9);
+  position: fixed;
+}
+.rsp{
+  font-size:22px;
+color: black;
+font-weight: 550;
+margin-bottom: 7px;
+
+
+padding-left: 10px;
+padding-right:8px;
+}
+  
+
   
   
     .moreinfo {
@@ -432,6 +437,7 @@
     padding: 12px;
     font-size: 16px;
     margin-left: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .navbar {
     border-radius: 20px;
@@ -520,20 +526,18 @@
   color: white; font-size: 30px;margin-bottom: 20px;
  }
 
-.layerbox {
+ .layerbox {
   display: flex;
   justify-content: space-between;
   background-color: black;
-  width: 237px;
+  width: 283px;
+  height: 111px;
 }
-
-
-
-.box img {
+.boximg1 {
   width: 99px;
   height: 60px;
   max-height: 120%;
-  margin-right: 168px;
+  margin-right: 0px;
 }
 .box {
   align-items: center;
@@ -545,6 +549,9 @@
   display: flex;
   justify-content: center;
 }
+
+
+
 
 /* .box {
   align-items: center;

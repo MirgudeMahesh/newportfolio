@@ -66,9 +66,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }, i * 40, i); // Adjust the delay (100ms in this example) to control the speed of text appearing
     }
 });
+var select = document.getElementById("options");
+select.onchange=function(){
 
-function  changefun(){
-    var select = document.getElementById("options");
+   
     var selectedValue = select.value;
 
     switch (selectedValue) {
@@ -89,4 +90,11 @@ function  changefun(){
       default:
         // Handle default case if needed
         break;}
+    }
+
+
+    var rbt=document.getElementById("buttonxy");
+    rbt.onclick=function(){
+        var link9='https://drive.google.com/file/d/16CYhIsXZ30rtISwjWyTLAtstk2RO9lzN/view';
+        window.open(link9, '_blank');
     }
