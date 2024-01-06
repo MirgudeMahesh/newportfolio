@@ -126,37 +126,35 @@
    margin-right: 30px;
    line-height: 25px;
  }
-  .layerbox{
-   display: flex;
-   width: 100%;
-   justify-content: space-around;
-  
-  }
+ .layerbox {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-left: 55px;
+  padding-right: 55px;
+}
  
- 
-   .box {
-     align-items: center;
-     width: 300px;
-     height: 100px;
-     padding: 30px;
-     margin-top: 50px;
-     /* background-color: #650803; */
-     margin-right: 190px; 
-     margin-left: 90px;
-     /* Adjust the margin as needed */
-     display: inline-block; /* Ensures boxes appear next to each other */
-     display: flex; /* Use flex container to center the image */
-     justify-content: center; /* Center content horizontally */
-     align-items: center;
-    /* Center content vertically */
-   }
+.box {
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  padding: 30px;
+  margin-top: 50px;
+  /* background-color: #650803; */
+  margin-right: 190px;
+  margin-left: 20px;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
    
-   .box img {
-     width: 180%;
-     height: 160%; /* Maintain the aspect ratio */
-     max-height: 120%;
-     margin-left: 65px; /* Ensure the image doesn't overflow the box */
-   }
+.box img {
+  width: 180%;
+  height: 160%;
+  max-height: 120%;
+  margin-left: 65px;
+}
    
  
  
@@ -304,32 +302,29 @@
   }
   .layerbox {
     display: flex;
-   
     justify-content: space-between;
     background-color: black;
-    width: 346px;
+    width: 237px;
+}
+  
+  
+.box {
+  align-items: center;
+  width: 2px;
+  height: 59px;
+  padding: -2px;
+  margin-top: 32px;
+  margin-right: 37px;
+  display: flex;
+  justify-content: center;
+}
     
-  }
-  
-  
-  .box {
-    align-items: center;
-    width: 56px;
-    height: 59px;
-    padding: 29px;
-    margin-top: 34px;
-  
-    margin-right: 2px;
-    display: flex;
-    justify-content: center;
-  }
-    
-  .box img {
-    width: 120px;
-    height: 60px;
-    max-height: 120%;
-  
-  }
+.box img {
+  width: 99px;
+  height: 60px;
+  max-height: 120%;
+  margin-right: 168px;
+}
   
   
     .moreinfo {
@@ -525,21 +520,11 @@
   color: white; font-size: 30px;margin-bottom: 20px;
  }
 
- .layerbox {
-  display: flex;
- 
-  justify-content: space-between;
-  background-color: black;
-  width: 346px;
-  
-}
 .layerbox {
   display: flex;
- 
   justify-content: space-between;
   background-color: black;
-  width: 346px;
-  
+  width: 237px;
 }
 
 
@@ -554,9 +539,9 @@
   align-items: center;
   width: 2px;
   height: 59px;
-  padding: 13px;
-  margin-top: 34px;
-  margin-right: 2px;
+  padding: -2px;
+  margin-top: 32px;
+  margin-right: 37px;
   display: flex;
   justify-content: center;
 }
