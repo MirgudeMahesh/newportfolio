@@ -6,7 +6,7 @@ button.onclick=function(){
 }
 
 resume.onclick=function(){
-    var link1='https://drive.google.com/file/d/16CYhIsXZ30rtISwjWyTLAtstk2RO9lzN/view';
+    var link1='https://drive.google.com/file/d/1J3_80Jd4GzoM6Xl_0kEAJxhqVZoK-1k4/view?usp=sharing';
     window.open(link1, '_blank');
 }
 var aboutme_link=document.getElementById("aboutmel")
